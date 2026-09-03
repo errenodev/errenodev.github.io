@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Terenzio Devisio — Founder, Codprime</title>
-<meta name="description" content="Founder, Codprime. Building post-platform primitives in stealth.">
+<title>Terenzio Devisio</title>
+<meta name="description" content="Building post-platform primitives in stealth.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,480;0,9..144,600;1,9..144,440&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -98,7 +98,8 @@
   }
 
   .hero .role{
-    font-size:1.05rem;
+    font-family:var(--mono);
+    font-size:1rem;
     color:var(--phosphor-soft);
     margin:0 0 32px;
     font-weight:500;
@@ -178,58 +179,6 @@
     color:var(--paper-dim);
   }
 
-  /* ---------- VENTURES ---------- */
-  .ventures{
-    display:grid;
-    gap:1px;
-    background:var(--line);
-    border:1px solid var(--line);
-  }
-
-  .venture{
-    background:var(--ink);
-    padding:28px 28px;
-    display:grid;
-    grid-template-columns:1fr auto;
-    gap:16px;
-    align-items:start;
-  }
-
-  .venture h3{
-    font-family:var(--serif);
-    font-weight:600;
-    font-size:1.15rem;
-    margin:0 0 6px;
-    color:var(--paper);
-  }
-
-  .venture p{
-    margin:0;
-    font-size:0.95rem;
-    color:var(--paper-dim);
-    max-width:46ch;
-  }
-
-  .tag{
-    font-family:var(--mono);
-    font-size:0.72rem;
-    padding:5px 11px;
-    border-radius:100px;
-    white-space:nowrap;
-    height:fit-content;
-    border:1px solid transparent;
-  }
-
-  .tag.stealth{
-    color:var(--phosphor-soft);
-    border-color:rgba(111,168,75,0.4);
-  }
-
-  .tag.live{
-    color:var(--amber);
-    border-color:rgba(181,101,29,0.4);
-  }
-
   /* ---------- NOW ---------- */
   .now-list{
     list-style:none;
@@ -292,7 +241,6 @@
   @media (max-width:520px){
     .hero{padding:88px 0 72px;}
     section{padding:60px 0;}
-    .venture{grid-template-columns:1fr; gap:12px;}
   }
 </style>
 </head>
@@ -302,7 +250,7 @@
     <div class="wrap">
       <div class="seal">TD</div>
       <h1>Terenzio Devisio</h1>
-      <p class="role">Founder, Codprime</p>
+      <p class="role">@errenodev</p>
       <p class="manifesto">Building post-platform primitives in stealth. Consensus is a lagging indicator.</p>
       <div class="status-line"><span class="status-dot"></span>status: undisclosed</div>
     </div>
@@ -330,38 +278,9 @@
 
   <section>
     <div class="wrap">
-      <h2 class="section-head">Ventures</h2>
-      <div class="ventures">
-        <div class="venture">
-          <div>
-            <h3>Codprime</h3>
-            <p>Post-platform primitives. Details withheld pending inevitability.</p>
-          </div>
-          <span class="tag stealth">in stealth</span>
-        </div>
-        <div class="venture">
-          <div>
-            <h3>Ring — Italian syntax</h3>
-            <p>Reworking the Ring language's keywords into Italian, starting from its native syntax customization.</p>
-          </div>
-          <span class="tag live">actually shipped</span>
-        </div>
-        <div class="venture">
-          <div>
-            <h3>47 private repositories</h3>
-            <p>What you don't see is, allegedly, where the real work happens.</p>
-          </div>
-          <span class="tag stealth">classified</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
       <h2 class="section-head">Now</h2>
       <ul class="now-list">
-        <li><strong>Learning Ring</strong> — a small, fast, extremely flexible language nobody's heard of. That's the point.</li>
+        <li><strong>Building</strong> something. Can't talk about it yet.</li>
         <li><strong>Not raising.</strong> Not hiring. Not explaining.</li>
         <li><strong>Reading</strong> everything the industry assumed was settled, again.</li>
       </ul>
@@ -372,7 +291,7 @@
     <div class="wrap">
       <div class="stamp">parody account — mostly</div>
       <p class="bio-line">Views are my own. Likes ≠ endorsement.</p>
-      <p class="fine-print">© Terenzio Devisio · Codprime</p>
+      <p class="fine-print">© Terenzio Devisio</p>
     </div>
   </footer>
 
